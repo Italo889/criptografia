@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mensagem Oculta</title>
+</head>
+
+<body>
+    <div id="div-formulario">
+        <form name="form" id="formulario">
+            <div class="box">
+                <h1 class="titulo">Criptografia de mensagem</h1>
+                <div>
+                    <label class="campo-texto">
+                        <span class="titulo-form">Coloque a mensagem a ser codificada</span></label>
+                    <input type="text" name="mensagem" id="mensagem">
+                </div>
+                <div>
+                    <label>
+                        <select name="selecao" id="selecao">
+                            <option value="escolha">Tipo de criptografia</option>
+                            <option value="espaco">---</option>
+                            <option value="base64" id="base64">Base 64</option>
+                            <option value="cifra" id="cifraCesar">Cifra de César</option>
+                            <input type="number" id="incremento" placeholder="Incremento da cifra...">
+                        </select>
+                    </label>
+                </div>
+                <div>
+                        <button id="encode">codificar</button>
+         
+
+                        <button id="decode">decodificar</button>
+                 
+                </div>
+            </div>
+        </form>
+        <div id="mensagemFinal">
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>

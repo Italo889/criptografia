@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:  linear-gradient(90deg, rgba(12,10,34,1) 0%, rgba(16,16,164,1) 51%, rgba(45,220,255,1) 100%);
+
+}
+
+.titulo {
+  color: #000;
+}
+
+.titulo-form {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.campo-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #DDD;
+  height: 500px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#mensagemFinal {
+  height: 100px;
+  width: 900px;
+  background-color: #FFF;
+}
+
+select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select#selecao {
+  margin: auto;
+}
+
+#incremento {
+  display: none;
+  margin-top: 2px;
+}
+
+#codificado {
+  margin-left:5px;
+}
